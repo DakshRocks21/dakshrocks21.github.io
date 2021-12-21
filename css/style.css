@@ -103,10 +103,29 @@ body {
 >>>> Footer
 *****************************/
 
+.socials {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: rgb(53, 58, 79);
+    color: white;
+    font-size: 26px;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(41, 45, 62);
+}
+
 .bottom-footer {
     color: white;
     text-align: center;
     border-top: 2px solid rgb(0, 255, 0);
     padding-top: 20px;
     font-size: 15px;
+    padding-bottom: 20px;
 }
