@@ -1,12 +1,12 @@
 body {
-    font-family: 'Noto Sans Mono', serif;
+    font-family: "Noto Sans Mono", serif;
     background-color: black;
 }
 
 
 /****************************
->>>> NAV BAR
-*****************************/
+  >>>> NAV BAR
+  *****************************/
 
 .navbar {
     background-color: rgb(0, 0, 0);
@@ -31,8 +31,8 @@ body {
 
 
 /****************************
->>>> HEADER
-*****************************/
+  >>>> HEADER
+  *****************************/
 
 .header-img {
     width: 250px;
@@ -42,14 +42,14 @@ body {
 }
 
 .header-img:hover {
-    transition: all .15s ease-in-out;
+    transition: all 0.15s ease-in-out;
     transform: scale(1.1);
 }
 
 
 /****************************
->>>> BACKGROUND COLOURS
-*****************************/
+  >>>> BACKGROUND COLOURS
+  *****************************/
 
 .jumbotron {
     background-color: rgb(59, 70, 154);
@@ -58,6 +58,11 @@ body {
 
 #about {
     background-color: rgb(33, 40, 89);
+}
+
+#about img {
+    height: 300px;
+    padding-left: 100px;
 }
 
 #projects {
@@ -76,8 +81,8 @@ body {
 
 
 /****************************
->>>> GLOBAL
-*****************************/
+  >>>> GLOBAL
+  *****************************/
 
 .btn-primary {
     background-color: green;
@@ -100,8 +105,8 @@ body {
 
 
 /****************************
->>>> Footer
-*****************************/
+  >>>> Footer
+  *****************************/
 
 .socials {
     text-align: center;
@@ -128,4 +133,8 @@ body {
     padding-top: 20px;
     font-size: 15px;
     padding-bottom: 20px;
+}
+
+.exabytes {
+    height: 50px;
 }
