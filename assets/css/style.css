@@ -43,6 +43,7 @@ h1,h2,h3{
 */
 .hamburger{
   float: left;
+  margin-top: 7px;
 }
 .hamburger-menu{
   background-color: var(--togglebtn);
@@ -144,9 +145,11 @@ h1,h2,h3{
 */
 .toggle-btn{
   background-color: var(--togglebtn);
+  margin-top: 7px;
+  margin-right: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 6px;
+  padding-top: 10px;
   padding-bottom: 6px;
   border-radius: 5px;
   color: var(--textcolour);
