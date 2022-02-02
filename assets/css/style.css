@@ -41,6 +41,9 @@ h1,h2,h3{
 /*
 ! Hamburger Menu
 */
+.hamburger{
+  float: left;
+}
 .hamburger-menu{
   background-color: var(--togglebtn);
   border: none;
@@ -150,6 +153,7 @@ h1,h2,h3{
   font-size: 25px;
   border: none;
   outline: none;
+  float: right;
 }
 
 /*
@@ -235,6 +239,7 @@ h3{
 @media only screen and (max-width: 600px) {
   .navbar{
     vertical-align: middle;
+    text-align: center;
   }
 
   .navlink-items{
