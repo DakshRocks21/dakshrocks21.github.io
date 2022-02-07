@@ -1,10 +1,14 @@
 :root {
+  /* UI Colours */
   --navbarcolour: rgb(22, 25, 35);
   --bodycolour: rgb(26, 32, 44);
-  --textcolour: #fff;
-  --togglebtn: rgb(41, 43, 52);
   --fadedtextcolour: rgba(255, 255, 255, 0.2);
-  --time:rgb(128, 128, 128);
+  --btn: rgb(41, 43, 52);
+  /* UI Text*/
+  --font : "IBM Plex Sans Thai Looped", sans-serif;
+  /* UI Text Colours*/
+  --textcolour: #fff;
+  --code:rgb(128, 128, 128);
 }
 
 body{
